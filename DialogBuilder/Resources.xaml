@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:DialogBuilder.Converters"
+                    xmlns:helper="clr-namespace:DialogBuilder">
+    <local:BoolToVisibilityConverter x:Key="BoolToCollapsedConverter" TrueValue="Visible" FalseValue="Collapsed"/>
+    <local:BoolToVisibilityConverter x:Key="InverseBoolToCollapsedConverter" TrueValue="Collapsed" FalseValue="Visible"/>
+    <local:BoolToVisibilityConverter x:Key="BoolToHiddenConverter" TrueValue="Visible" FalseValue="Hidden"/>
+</ResourceDictionary>
